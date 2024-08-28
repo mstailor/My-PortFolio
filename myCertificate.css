@@ -1,0 +1,63 @@
+body {
+    background-color: #a8a7a7;
+}
+
+header {
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+.head,
+.cert,
+.home {
+    display: inline-block;
+}
+
+.head h1 {
+    padding-left: 150px;
+}
+
+.home a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 800px;
+}
+
+.for-table {
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    color: black;
+    background-color: #fafafa;
+}
+
+table {
+    margin-top: 150px;
+    text-align: center;
+}
+
+table td {
+    padding: 20px;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    /* padding-top: 80px;
+    padding-left: 10%; */
+    margin-bottom: 0;
+}
+
+.copyright {
+    margin-bottom: 0;
+    margin-top: 19%;
+    text-align: center;
+    padding: 20px;
+}

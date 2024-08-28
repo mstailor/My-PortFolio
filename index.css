@@ -1,0 +1,400 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    background-color: #fafafa;
+}
+
+/* Header CSS */
+header {
+    width: 100%;
+    height: 130px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+}
+
+/* marquee {
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+} */
+
+.container,
+.left-headside,
+.right-headside {
+    display: inline-block;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+
+.left-headside img {
+    clip-path: circle(60%);
+    object-fit: cover;
+    width: 50px;
+    cursor: pointer;
+}
+
+span,
+a,
+.right-headside,
+a {
+    position: static;
+    margin-top: 0;
+    padding: 0;
+}
+
+span a {
+    padding-left: 0;
+    padding-right: 350px;
+    font-weight: bold;
+}
+
+.right-headside,
+a {
+    padding-right: 40px;
+    padding-top: 0;
+}
+
+.right,
+a {
+    text-decoration: none;
+    color: rgb(19, 18, 18);
+    font-size: 19px;
+}
+
+/* Main Tag start */
+/* First Section */
+
+.onesec {
+    background-image: url(/Sources/background\ img.jpg);
+    width: 100%;
+    height: 850px;
+    text-align: center;
+}
+
+#name {
+    padding-top: 280px;
+    font-size: 62px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.oneofpara {
+    font-size: 23px;
+    margin-bottom: 60px;
+}
+
+.btn-bg {
+    padding: 20px;
+    color: white;
+    font-size: 1.2rem;
+    border: 3px solid white;
+    padding-left: 40px;
+    padding-right: 40px;
+    cursor: pointer;
+    transition: transform .3s;
+    unicode-bidi: isolate;
+}
+
+/* Second Section  */
+.two {
+    width: 100%;
+    height: 900px;
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.first-part-of-sec-section {
+    padding-top: 120px;
+    font-size: 35px;
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+}
+
+button,
+.normal-but {
+    background-color: #7843E9;
+    border-radius: 5px;
+    border: 0 2px #7843E9;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0;
+}
+
+.secofpara {
+    font-size: 19px;
+    font-weight: lighter;
+}
+
+.sec-left,
+.sec-right {
+    display: inline-block;
+}
+
+.second-part-of-sec-section {
+    padding-top: 80px;
+}
+
+.sec-left {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.sec-left h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.secpart-para {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#sec-left {
+    text-align: left;
+    padding-left: 190px;
+}
+
+.sec-left h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.sec-right,
+#sec-left {
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.sec-right h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.skill-contain {
+    display: inline-block;
+    height: 200px;
+}
+
+.skills-set {
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    background: rgba(153, 153, 153, 0.2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: #666;
+}
+
+.skill-contain {
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.about-but {
+    padding-top: 20px;
+    padding-right: 70%;
+}
+
+.ab-but {
+    padding: 20px;
+    color: white;
+    font-size: 1.2rem;
+    border: 3px solid white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/* Third section */
+
+.three {
+    width: 100%;
+    /* height: 25%; */
+    text-align: center;
+    padding-top: 150px;
+    background-color: #fafafa;
+}
+
+.project-head {
+    font-size: 32px;
+    text-align: center;
+    margin: 0;
+}
+
+.project-head p {
+    font-size: 21px;
+    font-weight: lighter;
+}
+
+.firstproject,
+.secondproject,
+.thirdproject,
+.fourthproject {
+    display: grid;
+    grid-template-columns: 1.2fr 1.2fr;
+    grid-gap: 5px;
+    margin-bottom: 10rem;
+    margin-left: 10rem;
+    text-align: center;
+}
+
+.pro-img {
+    width: 550px;
+    margin-top: 7%;
+    padding: 0;
+    margin-right: 10%;
+}
+
+.firstproject-bio,
+.secondproject-bio,
+.thirdproject-bio,
+.fourthproject-bio {
+    text-align: left;
+}
+
+.project-title {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.project-info {
+    font-size: 20px;
+}
+
+.case-study {
+    background-color: #7843E9;
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+    font-size: 1.2rem;
+    border: 3px solid white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.four {
+    width: 100%;
+    height: 1200px;
+    text-align: center;
+    background-image: url(/Sources/background\ img.jpg);
+    text-align: center;
+}
+
+.first-part-of-four-sec {
+    padding-top: 120px;
+    font-size: 35px;
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+}
+
+.fourthofpara {
+    font-size: 19px;
+    font-weight: lighter;
+}
+
+.second-part-of-four-sec {
+    margin-top: 100px;
+    padding: 60px;
+    margin-left: 25%;
+    width: 50%;
+    height: 650px;
+    background-color: white;
+    color: black;
+    text-align: left;
+    border-radius: 20px;
+    box-shadow: 5px #666;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input[type=text],
+input[type=email] {
+    padding: 20px;
+    width: 90%;
+    background-color: #97979747;
+    border: 2px solid #97979747;
+    font-size: 22px;
+}
+
+textarea {
+    padding: 20px;
+    width: 90%;
+    height: 200px;
+    background-color: #97979747;
+    border: 2px solid #97979747;
+    font-size: 22px;
+}
+
+input[type=submit] {
+    background-color: #7843E9;
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+    font-size: 1.2rem;
+    border: 3px solid white;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 590px;
+}
+
+footer {
+    width: 90%;
+    height: 100%;
+    background-color: black;
+    color: #fff;
+    padding-top: 80px;
+    padding-left: 10%;
+}
+
+.foot-container,
+.left-foot,
+.right-foot {
+    display: inline-block;
+}
+
+footer h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.right-foot {
+    padding-left: 300px;
+}
+
+.right-foot .foot-link a img {
+    padding: 0;
+    display: flexbox;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+hr {
+    margin-right: 14%;
+}
+
+.copyright {
+    text-align: center;
+    padding: 50px;
+}
+
