@@ -1,12 +1,10 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Retrieve form data and sanitize it
     $name = htmlspecialchars($_POST['fn']);
     $email = htmlspecialchars($_POST['emailid']);
     $message = htmlspecialchars($_POST['msg']);
 
-    // Set the recipient email address
-    $to = "your-email@example.com"; // Replace with your email address
+    $to = "mohammedtailor2005@gmail.com"; 
     $subject = "New Message from Contact Form";
     $body = "Name: $name\nEmail: $email\n\nMessage:\n$message";
     $headers = "From: $email";
