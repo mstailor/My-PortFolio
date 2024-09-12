@@ -3,7 +3,9 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: content-box;
 }
+
 
 body {
     font-family: "Poppins";
@@ -20,7 +22,6 @@ header {
     position: fixed;
     top: 0;
     background-color: #7843E9;
-    /* display: inline-block; */
 }
 
 header a:hover {
@@ -286,6 +287,7 @@ strong {
     padding-right: 40px;
 }
 
+/* fourth section */
 .four {
     width: 100%;
     height: 1200px;
@@ -357,6 +359,7 @@ input[type=submit] {
     margin-left: 590px;
 }
 
+/* Footer part */
 footer {
     width: 90%;
     height: 100%;
@@ -403,6 +406,12 @@ hr {
     font-weight: 400;
 }
 
+textarea {
+    font-size: 20px;
+    color: white;
+}
+
+
 /* Mobile styles (max-width: 768px) */
 @media screen and (max-width: 768px) {
     header {
@@ -447,7 +456,8 @@ hr {
     }
 
 
-    .right-headside, a {
+    .right-headside,
+    a {
         padding-right: 0px;
     }
 
@@ -463,6 +473,14 @@ hr {
 
     .right-headside a {
         padding: 0 5px;
+    }
+
+    .right-headside {
+        padding-right: 30px;
+    }
+
+    .right-headside .hide {
+        display: none;
     }
 
     .onesec {
@@ -579,7 +597,7 @@ hr {
         padding-top: 40px;
     }
 
-    .name{
+    .name {
         display: none;
     }
 
@@ -587,7 +605,11 @@ hr {
         font-size: 15px;
     }
 
-    .firstproject-bio, .secondproject-bio, .thirdproject-bio, .fourthproject-bio, .fifthproject-bio {
+    .firstproject-bio,
+    .secondproject-bio,
+    .thirdproject-bio,
+    .fourthproject-bio,
+    .fifthproject-bio {
         padding-bottom: 54px;
     }
 }
@@ -641,9 +663,13 @@ hr {
         padding-left: 50px;
     }
 
-    .firstproject, .secondproject, .thirdproject, .fourthproject, .fifthproject {
+    .firstproject,
+    .secondproject,
+    .thirdproject,
+    .fourthproject,
+    .fifthproject {
         display: grid;
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
         grid-gap: 5px;
         margin-bottom: 10rem;
         margin-left: 10rem;
@@ -735,7 +761,7 @@ hr {
         padding-top: 200px;
     }
 
-    .name{
+    .name {
         display: none;
     }
 
@@ -761,14 +787,15 @@ hr {
     .left-headside img {
         position: none;
     }
-    
-    
+
+
     .left-headside img {
         width: 80px;
         top: 25px;
     }
 
-    .right-headside, a {
+    .right-headside,
+    a {
         padding-top: 48px;
     }
 
@@ -831,7 +858,7 @@ hr {
     .three {
         padding-top: 800px;
     }
-    
+
     .project-head {
         font-size: 32px;
     }
@@ -894,7 +921,7 @@ hr {
     footer {
         padding-top: 80px;
     }
-    
+
     .right-foot {
         padding-left: 160px;
     }
