@@ -81,7 +81,7 @@ footer {
     width: 100%;
     background-color: black;
     color: #fff;
-    position: absolute;
+    position: fixed;
     bottom: 0;
 }
 
@@ -91,7 +91,7 @@ footer {
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     header {
         width: 113vw;
     }
@@ -109,5 +109,81 @@ footer {
 
     .nav-one {
         display: none;
+    }
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+/* Responsive adjustments */
+@media screen and (min-width: 769px) and (max-width: 1010px){
+    table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+    }
+    
+    th {
+        display: none;
+    }
+
+    tr {
+        display: block;
+    }
+
+    td {
+        display: block;
+        text-align: left;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 45%;
+        padding-left: 10px;
+        font-weight: bold;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 768px){
+    table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+    }
+    
+    th {
+        display: none;
+    }
+
+    tr {
+        display: block;
+    }
+
+    td {
+        display: block;
+        text-align: left;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 45%;
+        padding-left: 10px;
+        font-weight: bold;
+        white-space: nowrap;
     }
 }
