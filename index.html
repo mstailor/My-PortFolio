@@ -210,13 +210,14 @@
             </div>
             <div class="second-part-of-four-sec">
                 <div class="form-part">
-                    <form action="send_message.php" method="post">
+                    <form name="contact" method="POST" netlify>
                         <label for="fn">Name</label><br><br>
                         <input type="text" name="fn" id="fn" placeholder="Enter Your Name" required><br><br>
                         <label for="emailid">Email</label><br><br>
                         <input type="email" name="emailid" id="emailid" placeholder="Enter Your Email" required><br><br>
                         <label for="msg">Message</label><br><br>
                         <textarea name="msg" id="msg" placeholder="Enter Your Message" required></textarea><br><br><br>
+                        <input type="hidden" name="form-name" value="contact">
                         <input type="submit" value="SUBMIT">
                     </form>
                 </div>
