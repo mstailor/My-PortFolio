@@ -1,32 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: #a8a7a7;
+    font-family: "Poppins";
+    font-style: normal;
+    background-color: #010d1b;
+    color: #fff;
 }
 
 header {
-    background-color: black;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color:  #7843E9;
+}
+
+.head {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head .head-name {
+    font-size: 2.5em;
+}
+
+.head .nav-two a {
+    list-style-type: none;
     color: white;
-    width: 100%;
-    font-size: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic;
-}
-
-.head,
-.cert,
-.home {
-    display: inline-block;
-}
-
-.head h1 {
-    padding-left: 150px;
-}
-
-.home a {
-    text-decoration: none;
-    color: white;
-    font-size: 22px;
+    font-size: large;
+    cursor: pointer;
     font-weight: bold;
-    margin-left: 800px;
+}
+
+
+
+.nav-two a {
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(222, 226, 230);
+}
+
+.nav-two a:hover {
+    color: rgb(18, 214, 64);
+}
+
+.first{
+    width: 65vw;
+    margin: auto;
+    margin-top: 20px;
 }
 
 .for-table {
@@ -38,26 +69,45 @@ header {
 }
 
 table {
-    margin-top: 150px;
+    margin-top: 70px;
     text-align: center;
 }
 
 table td {
-    padding: 20px;
+    padding: 10px 20px;
 }
 
 footer {
     width: 100%;
     background-color: black;
     color: #fff;
-    /* padding-top: 80px;
-    padding-left: 10%; */
-    margin-bottom: 0;
+    position: absolute;
+    bottom: 0;
 }
 
 .copyright {
-    margin-bottom: 0;
-    margin-top: 19%;
     text-align: center;
     padding: 20px;
+}
+
+
+@media screen and (max-width: 480px) {
+    header {
+        width: 113vw;
+    }
+
+    .head {
+        width: 106vw;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 10px;
+    }
+
+    .head .head-name {
+        font-size: 1.5em;
+    }
+
+    .nav-one {
+        display: none;
+    }
 }
