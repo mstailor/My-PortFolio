@@ -402,8 +402,8 @@ hr {
 }
 
 .copyright {
-    text-align: center;
-    padding: 50px;
+    padding: 50px 0px;
+    margin-left: 35%;
 }
 
 .thirdofpara {
@@ -623,6 +623,10 @@ textarea {
     .fifthproject-bio {
         padding-bottom: 54px;
     }
+
+    .copyright {
+        margin-left: 12%;
+    }
 }
 
 /* Tablet styles (min-width: 769px and max-width: 1024px) */
@@ -779,6 +783,9 @@ textarea {
 
     .right-headside a {
         font-size: 15px;
+    }
+    .copyright {
+        margin-left: 22%;
     }
 }
 
@@ -937,5 +944,8 @@ textarea {
 
     .right-foot {
         padding-left: 160px;
+    }
+    .copyright {
+        margin-left: 30%;
     }
 }
