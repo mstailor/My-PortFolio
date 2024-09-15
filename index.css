@@ -30,7 +30,7 @@ header a:hover {
 
 
 .container {
-    width: 90%;
+    width: 86vw;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -66,7 +66,7 @@ a {
 
 .onesec {
     width: 100%;
-    height: 850px;
+    height: 800px;
     text-align: center;
 }
 
@@ -216,6 +216,7 @@ strong {
     border: 3px solid #fff;
     padding-left: 40px;
     padding-right: 40px;
+    cursor: pointer;
 }
 
 /* Third section */
@@ -285,6 +286,7 @@ strong {
     border: 3px solid white;
     padding-left: 40px;
     padding-right: 40px;
+    cursor: pointer;
 }
 
 /* fourth section */
@@ -345,6 +347,7 @@ textarea {
     background-color: #97979747;
     border: 2px solid #97979747;
     font-size: 22px;
+    color: #fff;
 }
 
 input[type=submit] {
@@ -357,11 +360,12 @@ input[type=submit] {
     padding-left: 40px;
     padding-right: 40px;
     margin-left: 590px;
+    cursor: pointer;
 }
 
 /* Footer part */
 footer {
-    width: 90%;
+    width: 100%w;
     height: 100%;
     color: #fff;
     padding-top: 80px;
@@ -390,6 +394,7 @@ footer h4 {
     display: inline-block;
     filter: invert(100%) brightness(100%);
     background-color: transparent;
+    padding-right: 10px;
 }
 
 hr {
@@ -441,7 +446,7 @@ textarea {
 
     .pro-img {
         width: 280px;
-        margin-top: 0;
+        margin-top: 20px;
         padding: 0;
         margin-right: 0;
     }
@@ -455,6 +460,9 @@ textarea {
         margin-left: 84px;
     }
 
+    hr{
+        margin-right: -8%;
+    }
 
     .right-headside,
     a {
@@ -462,7 +470,7 @@ textarea {
     }
 
     .container {
-        width: 100%;
+        width: 100vw;
         padding: 0 10px;
     }
 
@@ -521,10 +529,12 @@ textarea {
     .sec-right {
         position: relative;
         top: -100px;
+        left: 57px;
     }
 
     .sec-left {
-        margin-left: 100px;
+        margin-left: 55px;
+        text-align: left;
     }
 
     .skills-set {
@@ -568,6 +578,7 @@ textarea {
 
     .first-part-of-four-sec {
         font-size: 28px;
+        margin-left: 50px;
     }
 
     .fourthofpara {
@@ -590,11 +601,11 @@ textarea {
     }
 
     input[type=submit] {
-        margin-left: 250px;
+        margin-left: 190px;
     }
 
     footer {
-        padding-top: 40px;
+        padding-top: 70px;
     }
 
     .name {
@@ -732,6 +743,7 @@ textarea {
     .fourthofpara {
         font-size: 18px;
         font-weight: 400;
+        padding-left: 40px;
     }
 
     .second-part-of-four-sec {
@@ -782,6 +794,7 @@ textarea {
 
     .container {
         width: 100%;
+        padding: 0px 10px;
     }
 
     .left-headside img {
